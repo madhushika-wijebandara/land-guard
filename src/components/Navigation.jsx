@@ -83,7 +83,7 @@ const Navigation = () => {
         <div className={`nav-links ${menuOpen ? "active" : ""}`}>
           <ul className="nav-menu">
             <li className={location.pathname === '/' ? 'active' : ''}>
-              <Link to="/" onClick={() => setMenuOpen(false)}>
+              <Link to="/land-use" onClick={() => setMenuOpen(false)}>
                 Home
               </Link>
             </li>
