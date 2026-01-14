@@ -18,7 +18,7 @@ const App = () => {
       <Navigation />
       <div className="app-container">
       <Routes>
-        <Route path="/land-use" element={<Home />} />
+        <Route path="/land-guard" element={<Home />} />
         <Route path="/about" element={<AboutStudy />} />
         <Route path="/land-cover" element={<LandCoverChanges />} />
         <Route path="/agriculture" element={<AgriculturalLandUse />} />
